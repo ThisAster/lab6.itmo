@@ -1,0 +1,33 @@
+{
+<<<<<<< HEAD
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+=======
+>>>>>>> e495afe (Client-Server architecture)
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "com.freiz.server.Server",
+            "projectName": "lab-server",
+            "args": "8999"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "com.freiz.client.Client",
+            "projectName": "lab-client",
+            "args": "localhost 8999"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
