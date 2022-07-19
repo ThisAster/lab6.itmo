@@ -59,6 +59,7 @@ public class ServerApp {
         this.logger = Logger.getLogger("log");
         File file = new File("server.log");
         FileHandler fh = new FileHandler(file.getAbsolutePath(), true);
+        logger.addHandler(fh);
         this.commands = createClientCommandsMap(outputManager, inputManager);
     }
 
